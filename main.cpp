@@ -1,6 +1,6 @@
 
 int main()
 {
-	cout << "Helo worls\n";
+	cout << "Hello world\n";
 
 }
