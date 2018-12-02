@@ -1,5 +1,6 @@
 CC = g++
 CFLAGS = -O3 -m64
-hello: hello.cpp
-  $(CC) $(CFLAGS) -o $@ @^
+
+hello: main.cpp
+	$(CC) $(CFLAGS) -o $@ $^
   
